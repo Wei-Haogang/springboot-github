@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class TestController {
 
+    /**
+     * 打印hello world
+     */
     @GetMapping("/hello")
     public void hello(){
         System.out.println("hello world");
