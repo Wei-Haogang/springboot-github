@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TestController {
 
     /**
-     * 打印hello world
+     * 功能：打印hello world
      */
     @GetMapping("/hello")
     public void hello(){
